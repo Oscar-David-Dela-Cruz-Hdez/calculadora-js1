@@ -1,0 +1,25 @@
+.calculadora {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+.input-numero {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1.2em;
+}
+.botones {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.boton {
+    width: 22%;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
